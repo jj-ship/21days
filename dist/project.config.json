@@ -1,0 +1,15 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "app",
+  "description": "21天减脂食谱打卡小程序",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
