@@ -1,0 +1,103 @@
+.index {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 100%);
+  padding-bottom: 40px;
+
+  &__header {
+    padding: 40px 32px 24px;
+  }
+
+  &__title {
+    display: block;
+    font-size: 44px;
+    font-weight: 700;
+    color: #166534;
+  }
+
+  &__subtitle {
+    display: block;
+    margin-top: 8px;
+    font-size: 28px;
+    color: #65a30d;
+  }
+
+  &__swiper {
+    height: 920px;
+  }
+
+  &__swiper-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__card-wrap {
+    width: 92%;
+    height: 96%;
+    margin: 0 auto;
+  }
+
+  &__action {
+    padding: 0 48px;
+    margin-top: 24px;
+  }
+
+  &__btn {
+    height: 96px;
+    line-height: 96px;
+    border-radius: 48px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+
+    &--primary {
+      background: linear-gradient(90deg, #22c55e, #16a34a);
+      color: #fff;
+    }
+
+    &--disabled {
+      background: #e5e7eb;
+      color: #9ca3af;
+    }
+
+    &::after {
+      border: none;
+    }
+  }
+
+  &__checked {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 96px;
+    border-radius: 48px;
+    background: #dcfce7;
+  }
+
+  &__checked-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #22c55e;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 12px;
+  }
+
+  &__checked-text {
+    font-size: 32px;
+    font-weight: 600;
+    color: #15803d;
+  }
+
+  &__loading {
+    display: block;
+    padding-top: 200px;
+    text-align: center;
+    color: #9ca3af;
+    font-size: 28px;
+  }
+}

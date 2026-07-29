@@ -1,0 +1,74 @@
+.recipe-card {
+  border-radius: 24px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+
+  &__cover {
+    width: 100%;
+    height: 360px;
+    display: block;
+  }
+
+  &__body {
+    padding: 24px;
+  }
+
+  &__meal {
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__meal-label {
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 10px;
+  }
+
+  &__meal-content {
+    display: block;
+    font-size: 28px;
+    color: #4b5563;
+    line-height: 1.6;
+    white-space: pre-line;
+  }
+
+  &__tips {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 16px;
+    background: #fef9c3;
+  }
+
+  &__tips-title {
+    display: block;
+    font-size: 26px;
+    font-weight: 600;
+    color: #854d0e;
+    margin-bottom: 8px;
+  }
+
+  &__tips-content {
+    display: block;
+    font-size: 26px;
+    color: #a16207;
+    line-height: 1.5;
+  }
+
+  &--empty {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  &__empty {
+    font-size: 28px;
+    color: #9ca3af;
+  }
+}
